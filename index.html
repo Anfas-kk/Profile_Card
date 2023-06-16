@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">  
+    
+</head>
+<body>
+    <div class="card-container">    
+      <div class="card" id="front-face">
+          <a href="#back-face" class="icon dots" onclick="flipCard(event)"><i class="fas fa-ellipsis-v"></i></a>  
+          <img class="round" src="images/an.jpg" alt="user" />
+          <h3>Anfas kk</h3>
+          <p>User interface designer and <br/> full-stack developer</p>
+          <ul>
+              <a href="https://www.facebook.com/jesmil.jesmil.1?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com/anfas_kk?igshid=MzNlNGNkZWQ4Mg=="><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/Anfas-kk"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/anfas-kk-34229527b"><i class="fab fa-linkedin"></i></a>
+          </ul>
+      </div>
+
+      <div class="card" id="back-face">
+          <a href="#front-face" class="icon arrow" onclick="flipCard(event)"><i class="fas fa-arrow-left"></i></a>
+          <div class="text-left mb-4">
+            <p class="mb-2"><i class="fa fa-envelope mr-2"></i> kkanfas@outlook.com</p>
+            <p class="mb-2"><i class="fa fa-phone mr-2"></i> +91 7902838918</p>
+            <p class="mb-2"><i class="fa fa-globe mr-2"></i> kkanfas.com</p>
+            <p class="mb-2"><i class="fa fa-map-marker-alt mr-2"></i> Calicut</p>
+          </div>
+          <div class="skills">
+            <h5>Skills</h6>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <!-- <li>React</li> -->
+                <!-- <li>Node</li> -->
+                <li>Php</li>
+                <li>C</li>
+                <li>C++</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/js.js"></script>
+</body>
+</html>
